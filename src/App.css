@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  background: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* timeline */
+.timeline {
+  position: relative;
+  width: 95%;
+  max-width: 1096px;
+  margin: 0 auto;
+  background-color: #34495e;
+  margin-top: 3%;
+  border-radius: 25px;
+  padding-bottom: 1.5%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timelineContainer {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timelineContainer::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: #fff;
+  border: 4px solid #e74c3c;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timelineLeft {
+  left: 0;
+  border-radius: 25px;
+}
+
+.timelineRight {
+  left: 50%;
+  border-radius: 25px;
+}
+
+.timelineLeft::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #fff;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.timelineRight::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #fff;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+.timelineRight::after {
+  left: -13px;
+}
+
+/* Careers page - content */
+.innerContent {
+  padding: 20px 30px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 6px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+/* Media query max width 800px */
+@media screen and (max-width: 800px) {
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timelineContainer {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timelineContainer::before {
+    left: 60px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+
+  .timelineLeft::after, .timelineRight::after {
+    left: 18px;
+  }
+
+  .timelineRight {
+    left: 0%;
+  }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Media query max width 635px */
+@media screen and (max-width: 635px) {
+
+  .timeline::after {
+    left: 31px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .timelineContainer {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
   }
+
+  .timelineContainer::before {
+    left: 60px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+
+  .timelineLeft::after, .timelineRight::after {
+    left: 18px;
+  }
+
+  .timelineRight {
+    left: 0%;
+  }
+
 }
