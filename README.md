@@ -87,7 +87,7 @@ Viewport size | Wireframe
 
 * The website is responsive across all device sizes.
 
-* The website has a general limit of 1096px in size so as to not distort the content on larger monitor such as 4K monitors.
+* The website has a general limit of 1096px in size so as to not distort the content on larger monitors such as 4K monitors.
 
 * __Desktop View__
 
@@ -105,7 +105,7 @@ Viewport size | Wireframe
 
 * In the future it would be great to have the state interact with local storage so frequent users can load up a constant 5 events.
 
-* In the future, and following on from the above, it would be great have a refresh button. To clear the event log.
+* In the future, and following on from the above, it would be great to have a refresh button. To clear the event view.
 
 * In the future it would be good to have an event viewing date-time selector so that the user could go back in the past and view historical events.
 
@@ -138,7 +138,7 @@ Viewport size | Wireframe
     - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during development process for code review and to test responsiveness.
+    - Chrome DevTools was used during the development process for code review and to test responsiveness.
 
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
@@ -176,7 +176,7 @@ Mobile Version | ![Mobile version image](readme-images/responsive-iphone.png)
 
 * Here are the steps to deploy this website to GitHub Pages from the built files in this project:
 
-    1. Copy this project locally using an GitHub functionality, such as `git clone`.
+    1. Copy this project locally using git functionality, such as `git clone`.
 
     2. Navigate into the root of the project and run `npm run build` as suggested in the __REACTJS.md__ file.
 
