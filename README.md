@@ -163,8 +163,8 @@ All testing can be found in the [TESTING.md](TESTING.md) file.
 
 Page / Section | Image
 --- | ---
-Desktop Version | ![Desktop version image](readme-images/responsive-desktop.png)
-Mobile Version | ![Mobile version image](readme-images/responsive-iphone.png)
+Desktop Version | ![Desktop version image](readme-images/desktop-wireframe.png)
+Mobile Version | ![Mobile version image](readme-images/mobile-wireframe.png)
 
 [Back to top ⇧](#simpl-event-viewer)
 
