@@ -72,8 +72,8 @@ The font used in this project is Arial, a sans-serif font. Arial is commonly use
 
 Viewport size | Wireframe
 --- | ---
-">800px" | ![Desktop View](readme-images/responsive-desktop.png)
-"<800px" | ![Mobile View](readme-images/responsive-ipad-mini.png)
+">800px" | ![Desktop version image](readme-images/desktop-wireframe.png)
+"<800px" | ![Mobile version image](readme-images/mobile-wireframe.png)
 
 [Back to top ⇧](#simpl-event-viewer)
 
@@ -163,8 +163,8 @@ All testing can be found in the [TESTING.md](TESTING.md) file.
 
 Page / Section | Image
 --- | ---
-Desktop Version | ![Desktop version image](readme-images/desktop-wireframe.png)
-Mobile Version | ![Mobile version image](readme-images/mobile-wireframe.png)
+Desktop Version | ![Desktop version image](readme-images/responsive-desktop.png)
+Mobile Version | ![Mobile version image](readme-images/responsive-iphone.png)
 
 [Back to top ⇧](#simpl-event-viewer)
 
