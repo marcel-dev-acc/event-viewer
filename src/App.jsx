@@ -77,6 +77,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h1 style={{
+          textAlign: 'center',
+          marginTop: '2%'
+        }}>
+          Event View
+        </h1>
           {/* Timeline of events */}
           <div className="timeline">
 
